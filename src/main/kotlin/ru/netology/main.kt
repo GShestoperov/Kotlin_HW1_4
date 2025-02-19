@@ -17,6 +17,8 @@ fun main() {
     val commissionReceiving = calcReceivingCommission(10000, "Visa", 100_000, 76_000)
 
     println("Комиссия перевода на счет составит: $commissionReceiving руб.")
+
+    println("Программа завершена")
 }
 
 // Расчет комиссии для приема денег на счет
