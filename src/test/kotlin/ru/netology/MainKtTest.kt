@@ -376,6 +376,7 @@ class MainKtTest {
             monthReceiving = monthReceiving
         )
 
-        assertEquals(ERROR_CARD_TYPE, result)
+        //assertEquals(ERROR_CARD_TYPE, result)
+        assertEquals(-10, result) //НЕВЕРНОЕ ЗНАЧЕНИЕ ДЛЯ ПРОВЕРКИ
     }
 }
