@@ -12,11 +12,11 @@ fun main() {
 
     val commission = calcTransferCommission(10000, "Mastercard", 100_000, 76_000)
 
-    println("Комиссия перевода со счета составит $commission руб.")
+    println("Комиссия перевода со счета составит: $commission руб.")
 
     val commissionReceiving = calcReceivingCommission(10000, "Visa", 100_000, 76_000)
 
-    println("Комиссия перевода на счет составит $commissionReceiving руб.")
+    println("Комиссия перевода на счет составит: $commissionReceiving руб.")
 }
 
 // Расчет комиссии для приема денег на счет
